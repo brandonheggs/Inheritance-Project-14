@@ -15,11 +15,11 @@ private:
 		int towingCapacity;
 
 public: 
-	truc(string manufacturer, int )
+	Truck(string manufacturer, int yearBuilt, int towingCapacity);
+
+	int getTowingCapacity();
+	void setTowingCapacity(int towingCapacity);
+
+	void displayInfo();
 };
-
-
-
-
-
 #endif
