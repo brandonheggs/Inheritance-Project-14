@@ -14,15 +14,19 @@ Car::Car(string manufacturer, int yearBuilt, int num) : numDoors(num), Vehicle(m
 }
 int Car::getNumDoors()
 {
-
+	return numDoors;
 }
 
 void Car::setNumDoors(int numDoors)
-{ 
+{
+	this->numDoors = numDoors;
 
 }
 
 void Car::displayInfo()
 {
+	Vehicle::displayInfo();
+	cout << "Doors: " << numDoors << endl;
+
 
 }
