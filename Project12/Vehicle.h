@@ -11,7 +11,7 @@ using namespace std;
 class Vehicle
 { private:
 	string manufacturer;
-		int yearBuilt;
+	int yearBuilt = 0;
 
 public :
 	Vehicle(string manufacturer, int yearBuilt);
@@ -20,7 +20,7 @@ public :
 	void setManufacturer(string manufacturer);
 
 	int getYearBuilt();
-	void setYearBuilt();
+	void setYearBuilt(int yearBuilt);
 
 	virtual void displayInfo();
 
