@@ -13,5 +13,19 @@ int main()
 	int yearMain;
 	int numDoorMain;
 	int towingMain;
+
+
 	cout << "Vehicle program " << endl;
+	cout << "Vehicle: " << endl;
+	cout << "Enter the manufacturer: ";
+	getline(cin, manufactorMain);
+	cin.ignore();
+	cout << "Enter the year built: ";
+	cin >> yearMain;
+	Vehicle vehicle(manufactorMain, yearMain);
+	vehicle.displayInfo();
+
+
+
+
 }
