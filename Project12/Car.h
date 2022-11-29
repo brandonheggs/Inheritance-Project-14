@@ -5,7 +5,7 @@
 #define CAR_H
 #include <iostream>
 #include "Vehicle.h"
-#pragma once
+
 
 using namespace std;
 

@@ -1,11 +1,13 @@
 // Brandon Heggs
 //CIS 1202 501
 //November 26, 2022
+#ifndef TRUCK_CPP
+#define TRUCK_CPP
 #include <iostream>
-#include "Truck.h"
-#include "Car.h"
 #include "Vehicle.h"
-#include "Vehicle.cpp"
+#include "Truck.h"
+
+
 
 using namespace std;
 
@@ -32,3 +34,4 @@ void Truck::displayInfo()
 	cout << "Towing capacity: " << towingCapacity << endl;
 
 }
+#endif

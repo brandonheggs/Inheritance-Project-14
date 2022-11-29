@@ -5,7 +5,7 @@
 #define TRUCK_H
 #include <iostream>
 #include "Vehicle.h"
-#pragma once
+
 
 using namespace std;
 

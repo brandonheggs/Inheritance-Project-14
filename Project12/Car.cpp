@@ -1,10 +1,12 @@
 // Brandon Heggs
 //CIS 1202 501
 //November 26, 2022
+#ifndef CAR_CPP
+#define CAR_CPP
 #include <iostream>
 #include "Car.h"
 #include "Vehicle.h"
-#include "Vehicle.cpp"
+
 
 using namespace std;
 
@@ -30,3 +32,5 @@ void Car::displayInfo()
 
 
 }
+
+#endif

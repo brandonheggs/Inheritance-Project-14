@@ -2,12 +2,10 @@
 //CIS 1202 501
 //November 26, 2022
 
+#ifndef VEHICLE_CPP
+#define VEHICLE_CPP
 #include "Vehicle.h"
 #include <iostream>
-#include <iomanip>
-#include <string>
-#include<fstream>
-#include <cstdlib>
 
 using namespace std;
 
@@ -47,3 +45,4 @@ void Vehicle::displayInfo()
 	cout << "Year Built: " << yearBuilt << endl;
 
 }
+#endif
