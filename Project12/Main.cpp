@@ -11,7 +11,7 @@ int main()
 {
 	string manufactorMain;
 	int yearMain;
-	int numDoorMain;
+	int numDoorsMain;
 	int towingMain;
 
 
@@ -24,6 +24,31 @@ int main()
 	cin >> yearMain;
 	Vehicle vehicle(manufactorMain, yearMain);
 	vehicle.displayInfo();
+
+	cout << "Car: " << endl;
+	cout << "Enter the manufacturer: ";
+	getline(cin, manufactorMain);
+	cin.ignore();
+	cout << "Enter the year built: ";
+	cin >> yearMain;
+	cout << "Enter the number of doors: ";
+	cin >> numDoorsMain;
+	Car car(manufactorMain, yearMain, numDoorsMain);
+	car.displayInfo();
+
+	cout << "Truck: " << endl;
+	cout << "Enter the manufacturer: ";
+	getline(cin, manufactorMain);
+	cin.ignore();
+	cout << "Enter the year built: ";
+	cin >> yearMain;
+	cout << "Enter the towing capacity: ";
+	cin >> towingMain;
+	Truck truck(manufactorMain, yearMain ,towingMain);
+	truck.displayInfo();
+
+
+
 
 
 
