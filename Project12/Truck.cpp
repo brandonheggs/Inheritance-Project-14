@@ -16,15 +16,19 @@ Truck::Truck(string manufactor, int year, int towing) : towingCapacity(towing), 
 
 int Truck::getTowingCapacity()
 {
+	return towingCapacity;
 
 }
 
 void Truck::setTowingCapacity(int towing)
 {
+	this->towingCapacity = towing;
 
 }
 
 void Truck::displayInfo()
 {
+	Vehicle::displayInfo();
+	cout << "Towing capacity: " << towingCapacity << endl;
 
 }
